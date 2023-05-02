@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Mattings Regular';
+  src: url('/src/fonts/Mattings\ Regular.ttf') 
+  format('truetype');
+}
+.under-banner{
+    width: 100%;
+    height: 650px;
+    /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+.left-underbanner {
+    /* background-color: green; */
+    width: 45%;
+    height: 90%;
+    position: relative;
+}
+.lu-title{
+    font-size: 20px;
+    color: #40513B;
+    font-weight: 500;
+    letter-spacing: 4px;
+    display: block;
+    text-transform: uppercase;
+}
+.lu-title2{
+        font-family: "Mattings Regular";
+    line-height: 125px;
+    font-weight: 500;
+    font-size: 200px;
+    /* background-color: red; */
+    width: 80%;
+
+    z-index: 2;
+}
+.lub-info {
+        font-family: "Spartan", sans-serif;
+        font-size: 15px;
+        margin: 10px 0 15px 0;
+        padding-right: 5px;
+}
+.lub-button{
+display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #40513B;
+    padding: 14px 40px 12px;
+    border-radius: 50px;
+    border: none;
+}
+.s-bg{
+    background-image: url("../../public/images/s-bg.png.webp");
+    width: 150px;
+    height: 100px;
+    opacity: 0.9;
+    position: absolute;
+    top: 30px;
+    z-index: -1;
+}
+.tache-ub{
+    width: 700px;
+    height: 300px;
+    rotate: -10deg;
+    position: absolute;
+    top: 5px;
+    left: 290px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.right-underbanner{
+    /* background-color: blue; */
+     width: 45%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    height: 90%;
+}
+.right-underbanner img{
+   height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter : brightness(150%);
+    rotate: 10deg;
+}
+
+
